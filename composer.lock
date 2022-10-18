@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b1cd566e6239582f0303a36aafcd1a2c",
+    "packages": [
+        {
+            "name": "php-alchemist/core-files",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHP-Alchemist/coreFiles.git",
+                "reference": "ddbdde3721eb235b224bac9b9735334d9f83b593"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHP-Alchemist/coreFiles/zipball/ddbdde3721eb235b224bac9b9735334d9f83b593",
+                "reference": "ddbdde3721eb235b224bac9b9735334d9f83b593",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=9.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPAlchemist\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Micah Breedlove",
+                    "email": "druid628@gmail.com"
+                }
+            ],
+            "description": "Collection of classes adding functionality to the language",
+            "support": {
+                "issues": "https://github.com/PHP-Alchemist/coreFiles/issues",
+                "source": "https://github.com/PHP-Alchemist/coreFiles/tree/master"
+            },
+            "time": "2022-10-16T04:48:38+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "php-alchemist/core-files": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

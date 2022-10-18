@@ -1,0 +1,7 @@
+###> Mine ###
+.idea/
+###< Mine ###
+
+###> Composer ###
+/vendor/
+###< Composer ###

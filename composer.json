@@ -1,0 +1,21 @@
+{
+  "name": "php-alchemist/barbas",
+  "description": "PHP daemon library",
+  "minimum-stability": "dev",
+  "type": "library",
+  "license": "BSD-2-Clause",
+  "authors": [
+    {
+      "name": "Micah Breedlove",
+      "email": "druid628@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PHPAlchemist\\": "src"
+    }
+  },
+  "require": {
+    "php-alchemist/core-files": "dev-master"
+  }
+}
