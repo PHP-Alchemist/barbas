@@ -1,8 +1,6 @@
 <?php
 
-namespace PHPAlchemist\Contract;
-
-use PHPAlchemist\Type\Collection;
+namespace PHPAlchemist\Barbas\Contract;
 
 interface DaemonInterface
 {

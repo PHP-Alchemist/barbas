@@ -12,7 +12,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "PHPAlchemist\\": "src"
+      "PHPAlchemist\\Barbas\\": "src"
     }
   },
   "require": {

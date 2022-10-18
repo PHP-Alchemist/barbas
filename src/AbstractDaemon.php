@@ -1,18 +1,21 @@
 <?php
 
-namespace PHPAlchemist;
+namespace PHPAlchemist\Barbas;
 
-use PHPAlchemist\Contract\DaemonInterface;
+use PHPAlchemist\Barbas\Contract\DaemonInterface;
 
 class AbstractDaemon implements DaemonInterface
 {
+    public const TEN_MIN_IN_SECONDS = 600;
+    public const NO_TIME_LIMIT      = 0;
+    
     /** @var int $timeLimit */
-    protected $timeLimit = 0;
+    protected $timeLimit;
 
     /** @var int $sleepTime */
-    protected $sleepTime = 600;
+    protected $sleepTime;
 
-    public function __construct(int $sleepTime = 600, int $timeLimit = 0)
+    public function __construct(int $sleepTime = self::TEN_MIN_IN_SECONDS, int $timeLimit = self::NO_TIME_LIMIT)
     {
         $this->sleepTime = $sleepTime;
         $this->timeLimit = $timeLimit;

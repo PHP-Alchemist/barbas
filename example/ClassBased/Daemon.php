@@ -1,6 +1,6 @@
 <?php
 
-use PHPAlchemist\AbstractDaemon;
+use PHPAlchemist\Barbas\AbstractDaemon;
 use PHPAlchemist\Traits\PerformanceTrait;
 
 class Daemon extends AbstractDaemon
