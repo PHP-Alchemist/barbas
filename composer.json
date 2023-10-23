@@ -15,7 +15,9 @@
       "PHPAlchemist\\Barbas\\": "src"
     }
   },
+  "prefer-stable": true,
   "require": {
+    "php": ">=8.2",
     "php-alchemist/core-files": "dev-master"
   }
 }

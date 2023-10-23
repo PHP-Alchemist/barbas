@@ -7,8 +7,8 @@ use PHPAlchemist\Barbas\Contract\DaemonInterface;
 class AbstractDaemon implements DaemonInterface
 {
     public const TEN_MIN_IN_SECONDS = 600;
-    public const NO_TIME_LIMIT      = 0;
-    
+    public const NO_TIME_LIMIT = 0;
+
     /** @var int $timeLimit */
     protected $timeLimit;
 
@@ -37,9 +37,21 @@ class AbstractDaemon implements DaemonInterface
         return $this->sleepTime;
     }
 
-    public function configure() : void { }
+    public function configure() : void
+    {
+    }
 
     public function execute() : void
+    {
+        /* Remove the execution time limit */
+        set_time_limit($this->getTimeLimit());
+        while (true) {
+            $this->work();
+            sleep($this->getSleepTime());
+        }
+    }
+
+    public function work() : void
     {
         throw new \Exception("Exception Method Not implemented");
     }

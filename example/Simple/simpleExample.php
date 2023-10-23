@@ -28,8 +28,8 @@ function getPerformance()
 /* Remove the execution time limit */
 set_time_limit($daemon->getTimeLimit());
 
+$daemon->execute();
 while (true) {
-    $daemon->execute();
     echo getPerformance() . "\n==================\n";
 
     /* Sleep for the iteration interval */

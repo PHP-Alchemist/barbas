@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b1cd566e6239582f0303a36aafcd1a2c",
+    "content-hash": "33622f36582994f9a8547ea36e56f745",
     "packages": [
         {
             "name": "php-alchemist/core-files",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-Alchemist/coreFiles.git",
-                "reference": "ddbdde3721eb235b224bac9b9735334d9f83b593"
+                "reference": "7a7b00cc781028dd27a9b3061f911ad3202e6641"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-Alchemist/coreFiles/zipball/ddbdde3721eb235b224bac9b9735334d9f83b593",
-                "reference": "ddbdde3721eb235b224bac9b9735334d9f83b593",
+                "url": "https://api.github.com/repos/PHP-Alchemist/coreFiles/zipball/7a7b00cc781028dd27a9b3061f911ad3202e6641",
+                "reference": "7a7b00cc781028dd27a9b3061f911ad3202e6641",
                 "shasum": ""
             },
             "require": {
@@ -48,7 +48,7 @@
                 "issues": "https://github.com/PHP-Alchemist/coreFiles/issues",
                 "source": "https://github.com/PHP-Alchemist/coreFiles/tree/master"
             },
-            "time": "2022-10-16T04:48:38+00:00"
+            "time": "2022-10-19T14:45:08+00:00"
         }
     ],
     "packages-dev": [],
@@ -57,9 +57,11 @@
     "stability-flags": {
         "php-alchemist/core-files": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=8.2"
+    },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }

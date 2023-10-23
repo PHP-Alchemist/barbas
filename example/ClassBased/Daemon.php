@@ -32,19 +32,14 @@ class Daemon extends AbstractDaemon
         $this->trackPefromance = $trackPefromance;
     }
 
-    public function execute() : void
+    public function work() : void
     {
-        /* Remove the execution time limit */
-        set_time_limit($this->getTimeLimit());
-        while (true) {
-            if ($this->trackPefromance)
-                echo "==================\n" . $this->getPerformance()."\n==================\n";
-            /* Sleep for the iteration interval */
-            echo 'Time: '.date('H:i:s')."\n";
-            echo $this->getPerformance()."\n";
-            sleep($this->getSleepTime());
-        }
+        if ($this->trackPefromance)
+            echo "==================\n" . $this->getPerformance() . "\n==================\n";
 
+        /* Sleep for the iteration interval */
+        echo 'Time: ' . date('H:i:s') . "\n";
+        echo $this->getPerformance() . "\n";
     }
 
 }

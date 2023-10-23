@@ -9,7 +9,7 @@ class Daemon extends AbstractDaemon
 
     public function configure() : void { }
 
-    public function execute() : void
+    public function work() : void
     {
         echo 'Time: '.date('H:i:s')."\n";
         echo $this->getPerformance()."\n";
