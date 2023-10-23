@@ -22,4 +22,4 @@
   "require-dev": {
     "php-alchemist/core-files": "dev-master"
   }
-},
+}

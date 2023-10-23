@@ -4,8 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "33622f36582994f9a8547ea36e56f745",
-    "packages": [
+    "content-hash": "9a216e25227e3023630fc16bf4d86263",
+    "packages": [],
+    "packages-dev": [
         {
             "name": "php-alchemist/core-files",
             "version": "dev-master",
@@ -51,7 +52,6 @@
             "time": "2022-10-19T14:45:08+00:00"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
