@@ -18,8 +18,5 @@
   "prefer-stable": true,
   "require": {
     "php": ">=8.2"
-  },
-  "require-dev": {
-    "php-alchemist/core-files": "dev-master"
   }
 }
