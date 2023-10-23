@@ -43,12 +43,17 @@ class AbstractDaemon implements DaemonInterface
 
     public function execute() : void
     {
+
         /* Remove the execution time limit */
         set_time_limit($this->getTimeLimit());
+
         while (true) {
             $this->work();
+
             sleep($this->getSleepTime());
+
         }
+
     }
 
     public function work() : void
